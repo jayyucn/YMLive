@@ -1,0 +1,37 @@
+{
+  "name": "AlipaySDK",
+  "source": {
+    "path": "."
+  },
+  "version": "2.0",
+  "license": "MIT",
+  "authors": "Elf Sundae",
+  "homepage": "http://qianchuo.com",
+  "summary": "Alipay SDK.",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "frameworks": [
+    "CoreMotion",
+    "CFNetwork",
+    "SystemConfiguration",
+    "CoreText",
+    "CoreTelephony"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "source_files": [
+    "Alipay/**/Order.{h,m}",
+    "Alipay/**/Util/*.{h,m}",
+    "Alipay/**/APAuthV2Info.{h,m}"
+  ],
+  "resources": "Alipay/**/AlipaySDK.bundle",
+  "vendored_frameworks": "Alipay/**/AlipaySDK.framework",
+  "dependencies": {
+    "openssl": [
+
+    ]
+  }
+}

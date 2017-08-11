@@ -1,0 +1,19 @@
+{
+  "name": "openssl",
+  "source": {
+    "path": "."
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": "Elf Sundae",
+  "homepage": "http://qianchuo.com",
+  "summary": "OpenSSL from Alipay SDK.",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "Alipay/**/openssl/*.h",
+  "vendored_libraries": [
+    "Alipay/**/libcrypto.a",
+    "Alipay/**/libssl.a"
+  ]
+}

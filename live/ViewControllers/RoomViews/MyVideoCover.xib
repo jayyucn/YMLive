@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyVideoCover"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyVideoCover">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rqn-fz-gN8">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" red="0.68928372266154581" green="1" blue="0.9315632249717255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:10:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rln-Cc-DcW">
+                    <rect key="frame" x="4" y="582" width="592" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="XzJ-Wy-oh8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nen-y4-VgB">
+                    <rect key="frame" x="280" y="280" width="30" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.44804185519564599" blue="0.57206218539206444" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="nen-y4-VgB" secondAttribute="height" multiplier="1:1" id="CFG-XH-yGE"/>
+                        <constraint firstAttribute="height" constant="40" id="nVS-Pz-nr8"/>
+                        <constraint firstAttribute="width" constant="40" id="xfM-Zb-kVw"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="rln-Cc-DcW" secondAttribute="bottom" constant="4" id="Afo-Ik-Jw8"/>
+                <constraint firstItem="nen-y4-VgB" firstAttribute="centerY" secondItem="Rqn-fz-gN8" secondAttribute="centerY" id="Guh-qa-zcC"/>
+                <constraint firstItem="nen-y4-VgB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="QdK-rC-EqA"/>
+                <constraint firstAttribute="trailing" secondItem="Rqn-fz-gN8" secondAttribute="trailing" id="kD7-BN-NAg"/>
+                <constraint firstAttribute="bottom" secondItem="Rqn-fz-gN8" secondAttribute="bottom" id="kt0-go-QCL"/>
+                <constraint firstItem="rln-Cc-DcW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="4" id="lsb-DH-KJj"/>
+                <constraint firstAttribute="trailing" secondItem="rln-Cc-DcW" secondAttribute="trailing" constant="4" id="qV6-kN-kPa"/>
+                <constraint firstItem="Rqn-fz-gN8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ubv-bn-QuO"/>
+                <constraint firstItem="Rqn-fz-gN8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zqt-p5-WS9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="videoCover" destination="Rqn-fz-gN8" id="FFS-fJ-bzT"/>
+                <outlet property="videoDuration" destination="rln-Cc-DcW" id="JXz-dZ-FEB"/>
+                <outlet property="videoPlay" destination="nen-y4-VgB" id="yII-YO-R25"/>
+            </connections>
+            <point key="canvasLocation" x="213" y="453"/>
+        </view>
+    </objects>
+</document>

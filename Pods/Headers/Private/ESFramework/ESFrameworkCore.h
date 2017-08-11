@@ -1,0 +1,1 @@
+../../../ESFramework/ESFramework/Core/ESFrameworkCore.h

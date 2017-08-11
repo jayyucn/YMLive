@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--wechatBind-->
+        <scene sceneID="b06-dS-gCH">
+            <objects>
+                <viewController storyboardIdentifier="wechatBind" title="wechatBind" hidesBottomBarWhenPushed="YES" id="SlY-Fh-s21" customClass="WechatBindViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mc9-gz-8MO"/>
+                        <viewControllerLayoutGuide type="bottom" id="w9z-Ic-0Kq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tqn-ty-R6J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KW1-6C-vjp">
+                                <rect key="frame" x="99" y="140" width="189" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="为了您的账号安全，请先进行微信号绑定，完成绑定即可安心兑换。" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDX-p0-4PX">
+                                <rect key="frame" x="0.0" y="64" width="375" height="61"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WDX-p0-4PX" secondAttribute="height" multiplier="375:61" id="HL1-Cw-Cdg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="验 证 码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axU-hx-zPw">
+                                <rect key="frame" x="16" y="133" width="83" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="Uy1-Nw-8jU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrcode_wx" translatesAutoresizingMaskIntoConstraints="NO" id="DKY-aF-ddw">
+                                <rect key="frame" x="87" y="238" width="201" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="csZ-jb-KfC"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="步骤二：关注完成后，在微信中点击“绑定账号”，获取验证码。" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GcD-xe-MSd">
+                                <rect key="frame" x="0.0" y="446" width="375" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="步骤三：在下方输入从有美直播微信公众号中获得的验证码。" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qb2-zU-A8s">
+                                <rect key="frame" x="0.0" y="481" width="375" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="2Yd-Mc-BLT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="步骤一：截图保存到相册，打开微信扫一扫识别该二维码或微信里添加朋友搜索海南菜花工作室，关注有美直播服务号。" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUb-o0-dQu">
+                                <rect key="frame" x="0.0" y="185" width="375" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Tvf-tx-Pg2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gip-Se-xQS">
+                                <rect key="frame" x="47" y="538" width="281" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="NSA-yL-Vzd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="绑     定">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendWXBindInfo" destination="SlY-Fh-s21" eventType="touchUpInside" id="eda-44-H2J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gip-Se-xQS" firstAttribute="top" secondItem="qb2-zU-A8s" secondAttribute="bottom" constant="26" id="0nO-Jf-sUc"/>
+                            <constraint firstItem="DKY-aF-ddw" firstAttribute="top" secondItem="BUb-o0-dQu" secondAttribute="bottom" constant="8" symbolic="YES" id="2qc-iz-o7o"/>
+                            <constraint firstAttribute="trailing" secondItem="WDX-p0-4PX" secondAttribute="trailing" id="3nv-dE-3Fj"/>
+                            <constraint firstItem="WDX-p0-4PX" firstAttribute="leading" secondItem="qb2-zU-A8s" secondAttribute="leading" id="5bV-EP-i51"/>
+                            <constraint firstItem="WDX-p0-4PX" firstAttribute="top" secondItem="mc9-gz-8MO" secondAttribute="bottom" id="Bas-Q5-d0h"/>
+                            <constraint firstItem="KW1-6C-vjp" firstAttribute="trailing" secondItem="DKY-aF-ddw" secondAttribute="trailing" id="Cov-Cg-B4R"/>
+                            <constraint firstItem="KW1-6C-vjp" firstAttribute="leading" secondItem="axU-hx-zPw" secondAttribute="trailing" id="HOe-6h-JcC"/>
+                            <constraint firstItem="WDX-p0-4PX" firstAttribute="centerX" secondItem="DKY-aF-ddw" secondAttribute="centerX" id="M7q-o2-rpr"/>
+                            <constraint firstItem="WDX-p0-4PX" firstAttribute="trailing" secondItem="BUb-o0-dQu" secondAttribute="trailing" id="Ohl-1f-Dse"/>
+                            <constraint firstItem="WDX-p0-4PX" firstAttribute="leading" secondItem="GcD-xe-MSd" secondAttribute="leading" id="Pqd-ke-Od9"/>
+                            <constraint firstItem="WDX-p0-4PX" firstAttribute="trailing" secondItem="qb2-zU-A8s" secondAttribute="trailing" id="QQI-zM-0MP"/>
+                            <constraint firstItem="DKY-aF-ddw" firstAttribute="leading" secondItem="Tqn-ty-R6J" secondAttribute="leadingMargin" constant="71" id="Qa6-i1-lLf"/>
+                            <constraint firstItem="WDX-p0-4PX" firstAttribute="trailing" secondItem="GcD-xe-MSd" secondAttribute="trailing" id="V0B-yF-2Ih"/>
+                            <constraint firstItem="axU-hx-zPw" firstAttribute="leading" secondItem="Tqn-ty-R6J" secondAttribute="leadingMargin" id="aAe-P1-2hM"/>
+                            <constraint firstItem="WDX-p0-4PX" firstAttribute="centerX" secondItem="gip-Se-xQS" secondAttribute="centerX" id="h2J-yj-4vP"/>
+                            <constraint firstItem="DKY-aF-ddw" firstAttribute="top" secondItem="BUb-o0-dQu" secondAttribute="bottom" constant="8" id="mPp-eF-5tI"/>
+                            <constraint firstItem="KW1-6C-vjp" firstAttribute="centerY" secondItem="axU-hx-zPw" secondAttribute="centerY" id="nh2-rh-o88"/>
+                            <constraint firstItem="BUb-o0-dQu" firstAttribute="top" secondItem="axU-hx-zPw" secondAttribute="bottom" constant="8" symbolic="YES" id="pdZ-93-OPo"/>
+                            <constraint firstItem="axU-hx-zPw" firstAttribute="top" secondItem="WDX-p0-4PX" secondAttribute="bottom" constant="8" symbolic="YES" id="pyX-xB-6Qa"/>
+                            <constraint firstItem="DKY-aF-ddw" firstAttribute="top" secondItem="Tqn-ty-R6J" secondAttribute="top" constant="238" id="rlk-Ap-ocK"/>
+                            <constraint firstItem="gip-Se-xQS" firstAttribute="leading" secondItem="Tqn-ty-R6J" secondAttribute="leadingMargin" constant="31" id="x2l-Rg-bsT"/>
+                            <constraint firstItem="WDX-p0-4PX" firstAttribute="leading" secondItem="Tqn-ty-R6J" secondAttribute="leading" id="xEy-Tv-n1Q"/>
+                            <constraint firstItem="qb2-zU-A8s" firstAttribute="top" secondItem="GcD-xe-MSd" secondAttribute="bottom" id="xO9-aY-g99"/>
+                            <constraint firstItem="w9z-Ic-0Kq" firstAttribute="top" secondItem="gip-Se-xQS" secondAttribute="bottom" constant="73" id="ybz-Y2-Hh3"/>
+                            <constraint firstItem="GcD-xe-MSd" firstAttribute="top" secondItem="DKY-aF-ddw" secondAttribute="bottom" constant="8" symbolic="YES" id="yi8-Tq-VUg"/>
+                            <constraint firstItem="WDX-p0-4PX" firstAttribute="leading" secondItem="BUb-o0-dQu" secondAttribute="leading" id="zaH-bN-RDS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="绑定微信" id="UF4-gS-gvv">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="nEE-E9-ZmK">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xcH-Nq-Guf">
+                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <action selector="backToPreviousView" destination="SlY-Fh-s21" eventType="touchUpInside" id="3dA-i0-8dR"/>
+                                </connections>
+                            </button>
+                            <connections>
+                                <action selector="backToPreviousView" destination="SlY-Fh-s21" id="xEU-WB-0UC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sendMsgButton" destination="gip-Se-xQS" id="5yI-5y-pGW"/>
+                        <outlet property="verifyCodeText" destination="KW1-6C-vjp" id="dN4-AY-6ji"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z9f-wM-2rx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1664.8" y="-10.344827586206897"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="daJ-nO-cWV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="idh-Z2-xhE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="EMr-YS-uCl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SlY-Fh-s21" kind="relationship" relationship="rootViewController" id="yIV-cj-KpQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GhS-r0-GrE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="-10"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="qrcode_wx" width="258" height="258"/>
+    </resources>
+</document>

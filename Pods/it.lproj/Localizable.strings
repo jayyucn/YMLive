@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  qianchuo
+
+  Created by 林伟池 on 16/7/25.
+  Copyright © 2016年 www.0x123.com. All rights reserved.
+*/
+"登录" = "Login";
+"第三方合作账号" = "Third Part Login";
+"忘记密码" = "forget";
+"注册" = "register";
+"请输入手机号码" = "phone number";
+"请输入6到16位密码" = "password";
+"取消" = "cancel";
+"手机找回密码" = "Retrieve password";
+"联系客服" = "contact us";
+"请输入账号以及其他信息，以便审核人员确认是否正确，别忘了留下您的联系方式" = "Please enter the account number and other information, so that the audit staff to confirm whether the correct, do not forget to leave your contact";
+"已经联系客服人员，请等待审核！" = "Have contact customer service staff, please wait for the audit!";
+"请求网络失败！" = "network error";
+"请输入验证码" = "code";
+"注册(1/2)" = "register(1/2)";
+"下一步" = "next";
+"获取验证码" = "get code";
+"为保护你的账号安全，请勿设置过于简单的密码，我们不会在任何地方泄露你的手机号码" = "In order to protect your account security, please do not set too simple password, we will not disclose your phone number in any place";
+"重新获取" = "get new";
+"正在请求服务器验证，请稍后..." = "Requesting server authentication, please...";
+"验证码获取中" = "waiting";
+"重新获取验证码" = "get new";
+"请求失败！" = "error";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+
+
+//"<#old#>" = "<#new#>";
+//"<#old#>" = "<#new#>";
+//"<#old#>" = "<#new#>";
+//"<#old#>" = "<#new#>";
+//"<#old#>" = "<#new#>";
+//"<#old#>" = "<#new#>";

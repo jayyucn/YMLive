@@ -1,0 +1,24 @@
+//
+// Xcode Build Setting Reference: https://developer.apple.com/library/mac/documentation/DeveloperTools/Reference/XcodeBuildSettingRef/1-Build_Setting_Reference/build_setting_ref.html#//apple_ref/doc/uid/TP40003931-CH3-SW68
+// Export build settings: http://stackoverflow.com/a/20862973/521946
+//
+
+
+PRODUCT_NAME = HuoWuLive
+IPHONEOS_DEPLOYMENT_TARGET = 7.0
+// 1: iPhone/iPod touch.  2: iPad.
+TARGETED_DEVICE_FAMILY = 1
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+GCC_PREFIX_HEADER = Source/Supporting Files/PrefixHeader.pch
+//CODE_SIGN_ENTITLEMENTS = Resources/Entitlements.plist
+INFOPLIST_FILE = Source/Supporting Files/Info.plist
+
+//OTHER_LDFLAGS = $(inherited)
+//FRAMEWORK_SEARCH_PATHS = $(inherited)
+//LIBRARY_SEARCH_PATHS = $(inherited)
+//HEADER_SEARCH_PATHS = $(inherited)
+//USER_HEADER_SEARCH_PATHS = $(inherited)
+
+ENABLE_BITCODE = NO

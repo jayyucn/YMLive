@@ -1,0 +1,1 @@
+../../../SQLitePersistentObjects/SQLitePersistentObjects/SQLitePersistentObjects/UIColor-SQLitePersistentObject.h

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiveInviteAlertView">
+            <connections>
+                <outlet property="_closeButton" destination="FiF-s7-2GL" id="6vs-o4-2sd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="LCQ-pF-h9e" customClass="LiveInviteAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
+                    <rect key="frame" x="0.0" y="18" width="292" height="282"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mxU-VU-goS">
+                            <rect key="frame" x="106" y="20" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="Ia8-3y-hEp"/>
+                                <constraint firstAttribute="width" constant="80" id="cX3-K3-k0t"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFK-yp-RFi">
+                            <rect key="frame" x="20" y="120" width="252" height="30"/>
+                            <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="94l-98-qGl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最多可与3位观众进行互动" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Plm-09-TgI">
+                            <rect key="frame" x="20" y="232" width="252" height="20"/>
+                            <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="Utc-4A-yur"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.82070707070000004" green="0.82070707070000004" blue="0.82070707070000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AK1-RK-6Fn">
+                            <rect key="frame" x="50" y="167" width="192" height="40"/>
+                            <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="kOH-UX-m1B"/>
+                            </constraints>
+                            <state key="normal" title="与TA进行互动">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onClickInvite:" destination="LCQ-pF-h9e" eventType="touchUpInside" id="6aQ-81-ZBW"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPu-U9-eW9">
+                            <rect key="frame" x="10" y="157" width="272" height="60"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fU-e5-j2A">
+                                    <rect key="frame" x="16" y="5" width="50" height="50"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="A5j-vx-SYa"/>
+                                        <constraint firstAttribute="height" constant="50" id="Qi4-4h-Il2"/>
+                                    </constraints>
+                                    <state key="normal" image="invite_voice"/>
+                                    <state key="selected" image="invite_voice_gray"/>
+                                    <connections>
+                                        <action selector="onClickSpeaker:" destination="LCQ-pF-h9e" eventType="touchUpInside" id="U8l-N7-8m5"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shd-go-gle">
+                                    <rect key="frame" x="82" y="5" width="50" height="50"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="BEI-s2-9qD"/>
+                                        <constraint firstAttribute="width" constant="50" id="Krq-zR-6ib"/>
+                                    </constraints>
+                                    <state key="normal" image="invite_camera"/>
+                                    <state key="selected" image="invite_camera_gray"/>
+                                    <connections>
+                                        <action selector="onClickCamera:" destination="LCQ-pF-h9e" eventType="touchUpInside" id="men-aT-jwQ"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtM-cu-w9G">
+                                    <rect key="frame" x="206" y="5" width="50" height="50"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="9ob-o2-5Ok"/>
+                                        <constraint firstAttribute="width" constant="50" id="bbv-mr-ewp"/>
+                                    </constraints>
+                                    <state key="normal" image="invite_hangup"/>
+                                    <connections>
+                                        <action selector="onClickHangUp:" destination="LCQ-pF-h9e" eventType="touchUpInside" id="YHP-8C-SEa"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCw-BJ-l5g">
+                                    <rect key="frame" x="148" y="5" width="50" height="50"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="caV-rz-YIS"/>
+                                        <constraint firstAttribute="height" constant="50" id="nMV-k0-Hsv"/>
+                                    </constraints>
+                                    <state key="normal" image="invite_switchwindow"/>
+                                    <connections>
+                                        <action selector="onClickSwitchWindow:" destination="LCQ-pF-h9e" eventType="touchUpInside" id="DlF-5e-H42"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="vtM-cu-w9G" secondAttribute="trailing" constant="16" id="3I5-7e-H58"/>
+                                <constraint firstItem="Shd-go-gle" firstAttribute="centerY" secondItem="XPu-U9-eW9" secondAttribute="centerY" id="4Vb-iT-kaU"/>
+                                <constraint firstAttribute="height" constant="60" id="G2D-aR-Xtk"/>
+                                <constraint firstItem="CCw-BJ-l5g" firstAttribute="leading" secondItem="Shd-go-gle" secondAttribute="trailing" constant="16" id="R2B-fT-mKZ"/>
+                                <constraint firstItem="2fU-e5-j2A" firstAttribute="leading" secondItem="XPu-U9-eW9" secondAttribute="leading" constant="16" id="YMb-77-hHB"/>
+                                <constraint firstItem="CCw-BJ-l5g" firstAttribute="centerY" secondItem="XPu-U9-eW9" secondAttribute="centerY" id="mu5-y0-6mH"/>
+                                <constraint firstItem="vtM-cu-w9G" firstAttribute="centerY" secondItem="XPu-U9-eW9" secondAttribute="centerY" id="pgO-hs-xpR"/>
+                                <constraint firstItem="2fU-e5-j2A" firstAttribute="centerY" secondItem="XPu-U9-eW9" secondAttribute="centerY" id="xH2-qU-mqR"/>
+                                <constraint firstItem="Shd-go-gle" firstAttribute="leading" secondItem="2fU-e5-j2A" secondAttribute="trailing" constant="16" id="yIC-7I-FZ7"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="XPu-U9-eW9" secondAttribute="trailing" constant="10" id="57a-Oc-wf1"/>
+                        <constraint firstItem="Plm-09-TgI" firstAttribute="top" secondItem="AK1-RK-6Fn" secondAttribute="bottom" constant="25" id="D5i-Fa-VQ9"/>
+                        <constraint firstItem="XPu-U9-eW9" firstAttribute="centerX" secondItem="AK1-RK-6Fn" secondAttribute="centerX" id="NKj-id-Qd8"/>
+                        <constraint firstAttribute="trailing" secondItem="Plm-09-TgI" secondAttribute="trailing" constant="20" id="NLR-DZ-ITw"/>
+                        <constraint firstAttribute="bottom" secondItem="Plm-09-TgI" secondAttribute="bottom" constant="30" id="Nle-Fi-5s5"/>
+                        <constraint firstItem="wFK-yp-RFi" firstAttribute="top" secondItem="mxU-VU-goS" secondAttribute="bottom" constant="20" id="OSQ-Up-FwC"/>
+                        <constraint firstItem="mxU-VU-goS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="Ucm-AF-vm0"/>
+                        <constraint firstItem="XPu-U9-eW9" firstAttribute="centerY" secondItem="AK1-RK-6Fn" secondAttribute="centerY" id="YZz-fj-11a"/>
+                        <constraint firstItem="AK1-RK-6Fn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="a4x-tS-zwd"/>
+                        <constraint firstItem="Plm-09-TgI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="fNm-xI-dEv"/>
+                        <constraint firstItem="mxU-VU-goS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lyz-0B-AgR"/>
+                        <constraint firstAttribute="trailing" secondItem="wFK-yp-RFi" secondAttribute="trailing" constant="20" id="pvj-Ck-52t"/>
+                        <constraint firstItem="wFK-yp-RFi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="rFT-6v-S5u"/>
+                        <constraint firstItem="XPu-U9-eW9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="uIz-Mi-Jfj"/>
+                        <constraint firstAttribute="trailing" secondItem="AK1-RK-6Fn" secondAttribute="trailing" constant="50" id="x6u-L3-sBk"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiF-s7-2GL">
+                    <rect key="frame" x="260" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="yWl-Qd-Bo4"/>
+                        <constraint firstAttribute="height" constant="40" id="zE8-RT-esY"/>
+                    </constraints>
+                    <state key="normal" image="close_red_circle"/>
+                    <connections>
+                        <action selector="onClose:" destination="LCQ-pF-h9e" eventType="touchUpInside" id="NLQ-nR-gHK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="top" secondItem="LCQ-pF-h9e" secondAttribute="topMargin" constant="10" id="3Hq-or-btT"/>
+                <constraint firstItem="FiF-s7-2GL" firstAttribute="top" secondItem="LCQ-pF-h9e" secondAttribute="top" id="ILg-Pt-Cmi"/>
+                <constraint firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="Pwz-M5-evR"/>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="leading" secondItem="LCQ-pF-h9e" secondAttribute="leading" id="Tz2-rv-0WC"/>
+                <constraint firstAttribute="trailingMargin" secondItem="iN0-l3-epB" secondAttribute="trailing" id="ryV-8k-JBj"/>
+                <constraint firstAttribute="trailing" secondItem="FiF-s7-2GL" secondAttribute="trailing" id="yy2-FL-rUw"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="_actionsView" destination="XPu-U9-eW9" id="Rx0-IN-er9"/>
+                <outlet property="_camera" destination="Shd-go-gle" id="LRe-BM-Wwt"/>
+                <outlet property="_container" destination="iN0-l3-epB" id="clt-3i-iUO"/>
+                <outlet property="_hangUp" destination="vtM-cu-w9G" id="xYN-Vl-GRv"/>
+                <outlet property="_headIcon" destination="mxU-VU-goS" id="kO1-Jj-gyo"/>
+                <outlet property="_interactButton" destination="AK1-RK-6Fn" id="20v-3T-Cxj"/>
+                <outlet property="_nickName" destination="wFK-yp-RFi" id="acy-sv-ezJ"/>
+                <outlet property="_speaker" destination="2fU-e5-j2A" id="FXY-zg-9OI"/>
+                <outlet property="_statusTip" destination="Plm-09-TgI" id="uPy-zT-JDK"/>
+                <outlet property="_switchWindow" destination="CCw-BJ-l5g" id="ODo-ve-Ik2"/>
+            </connections>
+            <point key="canvasLocation" x="-137" y="337"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close_red_circle" width="37" height="37"/>
+        <image name="invite_camera" width="34" height="30"/>
+        <image name="invite_camera_gray" width="34" height="30"/>
+        <image name="invite_hangup" width="31" height="30"/>
+        <image name="invite_switchwindow" width="27" height="30"/>
+        <image name="invite_voice" width="27" height="30"/>
+        <image name="invite_voice_gray" width="27" height="30"/>
+    </resources>
+</document>

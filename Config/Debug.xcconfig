@@ -1,0 +1,8 @@
+#include "Base.xcconfig"
+#include "../Pods/Target Support Files/Pods-HuoWuLive/Pods-HuoWuLive.debug.xcconfig"
+
+ONLY_ACTIVE_ARCH = YES
+DEBUG_INFORMATION_FORMAT = dwarf
+ASSETCATALOG_COMPILER_OPTIMIZATION = time
+GCC_OPTIMIZATION_LEVEL = 0
+LLVM_LTO = YES

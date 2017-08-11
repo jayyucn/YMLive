@@ -1,0 +1,137 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.2.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - APIService-TalkingData (2.2.36)
+  - Bugly (2.4.8)
+  - CWStatusBarNotification (2.3.5)
+  - DACircularProgress (2.3.1)
+  - ESFramework (2.4.13):
+    - ESFramework/Core (= 2.4.13)
+    - ESFramework/UIKit (= 2.4.13)
+  - ESFramework/Core (2.4.13)
+  - ESFramework/UIKit (2.4.13):
+    - ESFramework/Core
+  - HappyDNS (0.3.10)
+  - IconFontKit/Core (2.1.2)
+  - IconFontKit/FontAwesome (2.1.2):
+    - IconFontKit/Core
+  - ICViewPager (1.5.1)
+  - JSONModel (1.7.0)
+  - KVNProgress (2.3.1)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.12)
+  - MOBFoundation (3.0.2)
+  - pili-librtmp (1.0.7)
+  - PLPlayerKit (2.4.3):
+    - HappyDNS (~> 0.3.10)
+  - QNNetDiag (0.0.4)
+  - RMStore (0.7.1):
+    - RMStore/Core (= 0.7.1)
+  - RMStore/Core (0.7.1)
+  - RongCloudIMKit (2.7.3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - ShareSDK3 (4.0.1):
+    - MOBFoundation
+    - ShareSDK3/ShareSDK (= 4.0.1)
+  - ShareSDK3/ShareSDK (4.0.1):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/QQ (4.0.1):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/WeChat (4.0.1):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKUI (4.0.1):
+    - MOBFoundation
+  - SQLitePersistentObjects (1.1.0)
+  - STPopup (1.8.2)
+  - UMengAnalytics (4.2.4)
+  - Vendor (1.0.0):
+    - Vendor/ESFramework-Deprecated (= 1.0.0)
+    - Vendor/JDMessageView (= 1.0.0)
+    - Vendor/KTPhotoBrowser (= 1.0.0)
+    - Vendor/RTLabel (= 1.0.0)
+  - Vendor/ESFramework-Deprecated (1.0.0)
+  - Vendor/JDMessageView (1.0.0)
+  - Vendor/KTPhotoBrowser (1.0.0)
+  - Vendor/RTLabel (1.0.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 2.0)
+  - AFNetworking
+  - APIService-TalkingData
+  - Bugly
+  - CWStatusBarNotification
+  - DACircularProgress
+  - ESFramework (= 2.4.13)
+  - HappyDNS
+  - IconFontKit/FontAwesome
+  - ICViewPager
+  - JSONModel
+  - KVNProgress
+  - MBProgressHUD (= 0.9.2)
+  - MJRefresh
+  - pili-librtmp
+  - PLPlayerKit
+  - QNNetDiag
+  - RMStore
+  - RongCloudIMKit (= 2.7.3)
+  - SDWebImage (~> 3.7)
+  - ShareSDK3
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - ShareSDK3/ShareSDKUI
+  - SQLitePersistentObjects
+  - STPopup
+  - UMengAnalytics
+  - Vendor (from `Vendor`)
+
+EXTERNAL SOURCES:
+  Vendor:
+    :path: Vendor
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: d11a4c12c6aaf704b8a3f56d179198c99f3e41e6
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  APIService-TalkingData: 3612571bc848c2a017a7216d47eaaa434e6c6c88
+  Bugly: da3c02408c14838d498429320545a8e439392978
+  CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  ESFramework: 700a40439bcc0b296fa70ac8765b409b8157044f
+  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
+  IconFontKit: 3ce6ef3f532016042405819cf983fed8d649dff7
+  ICViewPager: 032dc71a50fe898e185fae6112ded4bed0e0523c
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  KVNProgress: 8167b1f19e2758290c0b6143020ed9dcbb0477a1
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MOBFoundation: d5e27c4638d911d3c7501aa5df458955d4814359
+  pili-librtmp: e8a06a45b0a1a166c48ae6dc718171c0963f32ea
+  PLPlayerKit: 6575f900d3a1c3680e3fd8907338683d0eedcd79
+  QNNetDiag: f38e43c4f89aef14c1cc6b474a41e07bbe8b2820
+  RMStore: 64ba13a9c040e3b7572765d169f77175cd3243e5
+  RongCloudIMKit: e0cddb316d359ccafefe7beaa4eb10c0700845e2
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  ShareSDK3: 6983a9b5209b63f2f4297fb0328d9a8dd6abd5f1
+  SQLitePersistentObjects: 9a7622dfc571917e7261f282c4bfb14c65448117
+  STPopup: b69b3e7484ef7d2baec5f9ab2939f8a7bcdfe218
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  Vendor: 124e48ee0c9730f16e6e20cb8e45a5d4650bece8
+
+PODFILE CHECKSUM: 51f2522c2e216b5cf7ececb59acd4e2f8711ddb6
+
+COCOAPODS: 1.1.1

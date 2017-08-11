@@ -1,0 +1,38 @@
+{
+  "name": "Vendor",
+  "source": {
+    "path": "."
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": "Elf Sundae",
+  "homepage": "http://qianchuo.com",
+  "summary": "Vendor for Qianchuo project.",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "frameworks": [
+    "MapKit",
+    "CoreLocation"
+  ],
+  "subspecs": [
+    {
+      "name": "KTPhotoBrowser",
+      "source_files": "KTPhotoBrowser/**/*.{h,m}",
+      "resources": "KTPhotoBrowser/KTPhotoBrowser.bundle"
+    },
+    {
+      "name": "RTLabel",
+      "source_files": "RTLabel/*.{h,m}"
+    },
+    {
+      "name": "JDMessageView",
+      "source_files": "JDMessageView/*.{h,m}"
+    },
+    {
+      "name": "ESFramework-Deprecated",
+      "source_files": "ESFramework-Deprecated/**/*.{h,m}"
+    }
+  ]
+}
